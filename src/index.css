@@ -14,10 +14,14 @@ body,
   @apply text-gray-900; /* defaults texts to white */
 }
 .greyscale-filter {
-  filter: grayscale(100%);
+  filter:saturate(0%);
   transition: filter 0.5s linear;
 }
 
 .greyscale-filter:hover {
   filter: none;
+}
+
+.remove-greyscale {
+  filter: saturate(100%);
 }

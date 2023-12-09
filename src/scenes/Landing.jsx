@@ -84,7 +84,7 @@ const Landing = ({ setSelectedPage }) => {
           </AnchorLink>
           <AnchorLink
             className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5 greyscale-filter"
-            onClick={() => setSelectedPage("contact")}
+            onClick={() => setSelectedPage("talk")}
             href="#talk"
           >
             <div className="bg-beige hover:text-blue transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
